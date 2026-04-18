@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolMarko</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nazwa">
+        <img  src="Logo-removebg-preview.png" width="200"> 
+        <a href="Kontakt.html">
+            <button class="button">Kontakt</button>
+        </a>
+        <a href="o-nas.html">
+            <button class="button">O nas</button>
+        </a>
+    </div>
+
+    <header class="opis">
+        <h3>Opis:</h3>
+        <ul>
+            <li>
+                <p>
+                    Oferujemy państwu montaż, serwis, naprawę klimatyzacji, demontaż.
+                    Usługa dotyczy zarówno mieszkań, domów, lokali ustugowych itp.
+                    Nasza firma oferuje bezpłatne doradztwo na terenie Warszawy i okolic,
+                    a także Kielc w miejscu montażu klimatyzacji  (wentylacji i rekuperacji).
+                    Doradzimy państwu jak zaplanować położenie instalacji pod klimatyzację nр.;
+                    na etapie remontu bądź świeżo zakupionego mieszkania domu. Zaoszczędzi to w przyszłości zamontowania
+                    korytek maskujących co nie każdemu może się podobać. W takim przypadku montaż instalacji
+                     + montaż klimatyzacji odbywa się dwuetapowo, żeby po położeniu instalacji ukryć ją pod tynkiem lub elewacją.
+                </p>
+            </li>
+        </ul>
+    </header>
+
+    <div class="uslugi">
+        <h3>Nasze usługi:</h3>
+        <ul>
+
+            <li class="usluga1">
+                <div class="usluga-header">
+                    <p>1. Montaż klimatyzacji</p>
+                </div>
+                <div class="usluga-opis">
+                   Oferujemy fachowy montaż klimatyzacji 
+                na terenie Województwa Mazowieckiego. Nasi monterzy realizują usługi
+                 w sposób kompleksowy: od audytu, przez dobór urządzenia, po instrukcję obsługi
+                  dla użytkownika. Działamy terminowo i profesjonalnie, a instalacja wykonana jest w sposób estetyczny.
+                   Jedynymi śladami naszych działań jest podniesiony komfort życia i optymalna temperatura każdego dnia.
+                </div>
+            </li>
+
+            <li class="usluga2">
+                <div class="usluga-header">
+                    <p>2. Serwis klimatyzacji</p>
+                </div>
+                <div class="usluga-opis">
+                    Postaw na optymalną temperaturę przez cały rok i brak dodatkowych kosztów
+                    oraz stresów związanych z usuwaniem niepożądanych usterek.
+                    Zadbaj o posiadane urządzenie, decydując się na współpracę z doświadczonymi specjalistami.
+                   Zobacz, na czym polega serwis klimatyzacji i co obejmuje oferowana przez nas usługa.
+                </div>
+            </li>
+
+            <li class="usluga4">
+                <div class="usluga-header">
+                    <p>3. Demontaz klimatyzacji</p>
+                </div>
+                <div class="usluga-opis">
+                    Demontaż klimatyzacji obejmuje bezpieczne odłączenie instalacji, odzysk czynnika chłodniczego oraz usunięcie urządzeń zgodnie z obowiązującymi normami. Nasza firma gwarantuje profesjonalne, sprawne i niezawodne wykonanie usługi na najwyższym poziomie.
+                </div>
+            </li>
+
+            <li class="usluga5">
+                <div class="usluga-header">
+                    <p>4. Rekuperacja</p>
+                </div>
+                <div class="usluga-opis">
+                    Rekuperacja to nowoczesny system wentylacji mechanicznej z odzyskiem ciepła, który zapewnia stały dopływ świeżego powietrza przy jednoczesnym ograniczeniu strat energii. Nasza firma oferuje profesjonalny montaż i najwyższą jakość wykonania, gwarantując wydajność oraz niezawodność systemu.
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <header class="cennik">
+        <h3>Cennik:</h3>
+        <ul>
+            <li>
+                <p>
+                    Montaż najtańszej wersji klimatyzatora dla pomieszczenia
+                    do 25m2 to okolice 3000zł. Klimatyzator ten będzie posiadał Wi-Fi, a także możliwość dogrzewania się w zimne dni.
+                    Nawet do -15^C na zewnątrz. Z reguły ceny ustalane są na miejscu indywidualnie.
+                </p>
+            </li>
+        </ul>
+    </header>
+
+    <script>
+        document.querySelectorAll(".uslugi li").forEach(item => {
+            item.addEventListener("click", () => {
+                item.classList.toggle("active");
+            });
+        });
+    </script>
+
+</body>
+</html>
