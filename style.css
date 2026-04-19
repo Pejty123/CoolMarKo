@@ -117,8 +117,12 @@ h3{
     url(https://img.freepik.com/darmowe-wektory/klimatyzacja-i-chlodnictwo-ilustracja-koncepcja-abstrakcyjna-instalacja-naprawa-i-konserwacja-klimatyzatorow-urzadzen-klimatyzacyjnych_335657-704.jpg);
 }
 
+.usluga3{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(obraznaprawy.png);
 
-
+}
 .usluga4{
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
      url(https://previews.123rf.com/images/john79/john791801/john79180100009/92676775-air-conditioning-repair-with-tool.jpg);
